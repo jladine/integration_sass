@@ -1,0 +1,93 @@
+.navbar-default {
+  background-color: #3097d1;
+  margin-bottom: 0;
+}
+.navbar-default .nav li a {
+  color: white;
+}
+
+.navbar-header img {
+  height: 2em;
+  margin-top: 0.7em;
+}
+
+.navbar-right li img {
+  border-radius: 50%;
+  margin-top: 0.3em;
+}
+
+.container-fluid {
+  background-color: #F5F8FA;
+}
+
+section {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #d3e0e9;
+  color: #1e3948;
+}
+section .col-md-12 .input-group {
+  margin: 20px;
+}
+
+.div_input {
+  background-color: white;
+  padding: 20px;
+}
+
+.col-md-3 section img {
+  width: 100%;
+}
+
+.friends_enemies {
+  width: 60%;
+  margin: auto;
+}
+.friends_enemies div {
+  display: inline-block;
+  padding: 10px;
+}
+.friends_enemies div strong {
+  display: block;
+}
+.friends_enemies .friend {
+  border-right: 1px solid #d3e0e9;
+}
+
+.section2, .section3, .section5, .section6 {
+  padding: 15px;
+}
+.section2 h3, .section3 h3, .section5 h3, .section6 h3 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.section2 ul li {
+  margin-top: 10px;
+}
+.section2 ul li i {
+  margin-right: 15px;
+}
+
+.section3 img {
+  margin-top: 20px;
+}
+
+.section6 {
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+}
+.section6 img {
+  border-radius: 50%;
+}
+.section6 .row {
+  margin-top: 20px;
+}
+
+.container-fluid {
+  border: 1px solid #d3e0e9;
+  border-radius: 0 0 5px 5px;
+  padding: 15px;
+}

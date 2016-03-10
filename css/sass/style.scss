@@ -1,0 +1,112 @@
+@import "color";
+
+$border : 1px solid #d3e0e9;
+$marginSection: 20px;
+$padding-section: 15px;
+
+.navbar-default{
+    background-color: $color-blue;
+    margin-bottom: 0;
+    .nav{
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+}
+ .navbar-header{
+     img{
+         height: 2em;
+         margin-top: 0.7em;
+     }
+ }
+.navbar-right{
+    li{
+        img{
+            border-radius: 50%;
+            margin-top: 0.3em;
+        }
+    }
+}
+.container-fluid{
+    background-color: #F5F8FA;
+}
+ section{
+     margin-top: $marginSection;
+     background-color: white;
+     border-radius: 5px;
+     border: $border;
+     color: $color-text;
+     .col-md-12{
+         .input-group{
+             margin: 20px;
+         }
+     }
+ }
+.div_input{
+    background-color: white;
+    padding: 20px;
+}
+ .col-md-3{
+     section{
+         img{
+             width: 100%;
+         }
+     }
+ }
+
+.friends_enemies{
+    width: 60%;
+    margin: auto;
+    div{
+        display: inline-block;
+        padding: 10px;
+        strong{
+            display: block;
+        }
+    }
+    .friend{
+        border-right: 1px solid #d3e0e9;
+    }
+}
+.section2, .section3, .section5, .section6{
+    padding: $padding-section;
+    h3{
+        display: inline-block;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+}
+
+.section2{
+    ul{
+        li{
+            margin-top: 10px;
+            i{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+.section3{
+    img{
+        margin-top: 20px;
+    }
+}
+ .section6{
+     border-bottom: none;
+     border-radius: 5px 5px 0 0;
+     img{
+         border-radius: 50%;
+     }
+     .row{
+         margin-top: 20px;
+     }
+ }
+ .container-fluid{
+     border: 1px solid #d3e0e9;
+     border-radius: 0 0 5px 5px;
+     padding: $padding-section;
+ }
