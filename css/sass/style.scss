@@ -4,6 +4,10 @@ $border : 1px solid #d3e0e9;
 $marginSection: 20px;
 $padding-section: 15px;
 
+
+.margin-top{
+    margin-top: 15px;
+}
 .navbar-default{
     background-color: $color-blue;
     margin-bottom: 0;
@@ -15,7 +19,7 @@ $padding-section: 15px;
         }
     }
 }
- .navbar-header{
+.navbar-header{
      img{
          height: 2em;
          margin-top: 0.7em;
@@ -95,7 +99,7 @@ $padding-section: 15px;
         margin-top: 20px;
     }
 }
- .section6{
+.section6{
      border-bottom: none;
      border-radius: 5px 5px 0 0;
      img{
@@ -105,8 +109,45 @@ $padding-section: 15px;
          margin-top: 20px;
      }
  }
- .container-fluid{
+.container-fluid{
      border: 1px solid #d3e0e9;
      border-radius: 0 0 5px 5px;
      padding: $padding-section;
  }
+ .section7{
+     padding: $padding-section;
+     ul{
+         li{
+             display: inline-block;
+         }
+     }
+ }
+ .img-profile{
+     border-radius: 50%;
+ }
+.section-principal{
+    .col-md-2{
+        img{
+            border-radius: 50%;
+        }
+    }
+    .row-section-principal{
+        padding: $padding-section;
+        border-bottom: $border;
+
+    }
+    .div_input{
+        border-bottom: $border;
+    }
+    .height-img{
+        height: 180px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .row-second-range-img{
+        padding-top: 15px;
+    }
+
+}

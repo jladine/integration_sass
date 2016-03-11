@@ -1,3 +1,7 @@
+.margin-top {
+  margin-top: 15px;
+}
+
 .navbar-default {
   background-color: #3097d1;
   margin-bottom: 0;
@@ -90,4 +94,36 @@ section .col-md-12 .input-group {
   border: 1px solid #d3e0e9;
   border-radius: 0 0 5px 5px;
   padding: 15px;
+}
+
+.section7 {
+  padding: 15px;
+}
+.section7 ul li {
+  display: inline-block;
+}
+
+.img-profile {
+  border-radius: 50%;
+}
+
+.section-principal .col-md-2 img {
+  border-radius: 50%;
+}
+.section-principal .row-section-principal {
+  padding: 15px;
+  border-bottom: 1px solid #d3e0e9;
+}
+.section-principal .div_input {
+  border-bottom: 1px solid #d3e0e9;
+}
+.section-principal .height-img {
+  height: 180px;
+}
+.section-principal .height-img img {
+  height: 100%;
+  width: 100%;
+}
+.section-principal .row-second-range-img {
+  padding-top: 15px;
 }
