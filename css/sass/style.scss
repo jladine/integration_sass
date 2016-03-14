@@ -133,8 +133,6 @@ $padding-section: 15px;
     }
     .row-section-principal{
         padding: $padding-section;
-        border-bottom: $border;
-
     }
     .div_input{
         border-bottom: $border;
@@ -148,6 +146,9 @@ $padding-section: 15px;
     }
     .row-second-range-img{
         padding-top: 15px;
+    }
+    .sous-section{
+        border-top: $border;
     }
 
 }
